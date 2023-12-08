@@ -1,0 +1,48 @@
+html{
+    box-sizing:border-box;
+    font-size:60.5%;
+
+
+
+
+
+    
+.img-fondo{
+    background-color: white;
+}
+img{
+    width: 100%;
+}
+.velo-negro{
+    background-color:  rgb(0,0,0,0.5);
+}
+.contenedor{
+    max-width: 120rem;
+    margin:0 auto;
+}
+.header{
+   
+    margin-left:auto;
+    margin: 3rem 0 8rem 0 ;
+    background-color: white;
+    padding: 4rem;
+    display: flex;
+  text-align:justify center;
+}
+/*.logo-img{
+    max-width: 30rem;
+    margin: -1rem 0 ;
+
+}*/
+    
+a{
+    text-decoration: none;
+
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+   
+/*barra d naveg*/
+}

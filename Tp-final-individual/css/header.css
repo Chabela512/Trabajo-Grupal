@@ -1,0 +1,89 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+  *,
+*::before, 
+*::after{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+  body{
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background-image: url(../img/Diseño\ sin\ título.png);
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    background-color:#a905b6;
+    top:0;
+    left: 0;
+    right: 0;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    max-width: 150px;
+}
+.navegación ul{
+    list-style: none;
+
+}
+.header .navegación ul li {
+    float: left;
+    position: relative;
+}
+.header .navegación ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: all .2s ease;
+}
+
+.header .navegación ul li a:hover {
+background-color: white;
+color:violet;
+}
+.header .navegación ul li ul {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    display: none;
+
+}
+.header .navegación ul li ul li a {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.header .navegación ul li ul li ul{
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+.header .navegación ul li ul li{
+    width: 100%;
+}
+.header .navegación ul li ul li:hover > ul{
+    display: initial;
+}
+#toggle,
+.header label{
+    display: none;
+    cursor:pointer
+}
+.menu {
+    width: 45px;
+    height: 35px;
+}
